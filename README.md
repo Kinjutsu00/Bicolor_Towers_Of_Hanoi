@@ -22,15 +22,16 @@ The rules of the problem are the same of Hanoi:
 
 
 
-##C
+## C
 **Imperative Programming**
 Just compile and run the code, initially it will ask you how many disks it has to consider, so if you type 10 it will put 5 disks for the first and the second pegs.
 In the standard output you will see the list of movements and a graphical representation of the system:
 
 ![Screenshot from 2019-07-09 13-23-30](https://user-images.githubusercontent.com/40428406/61550243-40a36100-aa52-11e9-9c24-b3762207214b.png)
 
+Where Prima 0-A, Seconda 0-B, Appoggio 0-C are the towers references and 4-r, 4-b, 3-r, 3-b ... are the disks references, where the Number indicates the disk dimension and 'r','b' indicate the color (red, blue)
 
-##Prolog
+## Prolog
 **Logic Programming**
 To "run" the code just: 
 	1. Open an interpreter
@@ -39,16 +40,16 @@ To "run" the code just:
 You will see the list of move printed in the output file, with the format **X,Y** where **X** is the source peg and **Y** is the destination peg. So you example **A,C** means **move the disk from A to C**
 
 
-##Scheme
+## Scheme
 **Functional Programming**
 To "run" the code just: 
 	1. Open an interpreter, like Dr.Racket
 	2. Compile the code
-	3. Type for example: ***(hanoi_bicolore -1 4 "A" "B" "C")***
+	3. Type for example: ***(hanoi_bicolore -1 6 "A" "B" "C")***
 You will see the list of move printed in the output file
 
 
-##Extra
+## Extra
 I implmented a C program (extra.c) that takes in input from a file the list of movements and prints in the standart output the system configuration at every shifts (like the C code output). The input file must contain the move in this format: **A,C** that mean move from **A** to **B**. One movement for each line. Just copy in the input file the sequence of movements and then run the program, it will ask you the total number of disks, just type it correctly and it will print all the configurations
 
 
