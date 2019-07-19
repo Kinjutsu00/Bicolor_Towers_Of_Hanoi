@@ -5,7 +5,12 @@ The bicolor towers of Hanoi problem is a variation of traditional towers of Hano
 
 The initial configuration is:
 
+![Screenshot from 2019-07-19 17-48-24](https://user-images.githubusercontent.com/40428406/61548231-7eea5180-aa4d-11e9-9aa4-2d81c8277dfb.png)
+
+
 The final configuration is:
+
+![Screenshot from 2019-07-19 17-48-31](https://user-images.githubusercontent.com/40428406/61548236-83166f00-aa4d-11e9-880e-05db3a1fc078.png)
 
 
 The rules of the problem are the same of Hanoi:
