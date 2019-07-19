@@ -1,5 +1,5 @@
 # Bicolor_Towers_Of_Hanoi
-Solution implemented in C(Imperative Programming), Prolog(Logic Programming) and Scheme(Functional Programming).
+Solution implemented in **C**(Imperative Programming), **Prolog**(Logic Programming) and **Scheme**(Functional Programming).
 
 The bicolor towers of Hanoi problem is a variation of traditional towers of Hanoi problem. (It was offered to grade 3-6 students at 2' eme Championnat de Francedes Jeux Math ́ematiques et Logiquesheld in July 1988). Suppose there arethree pegs, A, B and C. Suppose there are two sets of disks α and β, where α={αi | 1 <= i <= n } and β = {βi | 1 <= i <= n} such that color of everydisk in α is blue and color of every disk in β is red.
 The goal of the problem is to make the towersof pegs A and B monochrome. The biggest disks at the bottom of thepegs Aand B are required to swap positions. 
@@ -47,6 +47,6 @@ You will see the list of move printed in the output file
 
 
 ##Extra
-I implmented a C program (extra.c) that takes in input from a file the list of movements and prints in the standart output the system configuration at every shifts (like the C code output). The input file must contain the move in this format: **A,C** that mean move from **A** to **B**. One movement for each line.
+I implmented a C program (extra.c) that takes in input from a file the list of movements and prints in the standart output the system configuration at every shifts (like the C code output). The input file must contain the move in this format: **A,C** that mean move from **A** to **B**. One movement for each line. Just copy in the input file the sequence of movements and then run the program, it will ask you the total number of disks, just type it correctly and it will print all the configurations
 
 
