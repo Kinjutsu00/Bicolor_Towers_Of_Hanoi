@@ -21,10 +21,12 @@ The rules of the problem are the same of Hanoi:
 	2) At no time can a larger disk be placed on a smaller disk. Same size diskscan be placed over one another.
 
 
+
 ##C
 **Imperative Programming**
 Just compile and run the code, initially it will ask you how many disks it has to consider, so if you type 10 it will put 5 disks for the first and the second pegs.
 In the standard output you will see the list of movements and a graphical representation of the system:
+
 ![Screenshot from 2019-07-09 13-23-30](https://user-images.githubusercontent.com/40428406/61550243-40a36100-aa52-11e9-9c24-b3762207214b.png)
 
 
