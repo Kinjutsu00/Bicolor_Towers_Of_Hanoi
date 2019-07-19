@@ -2,7 +2,7 @@
 Solution implemented in **C**(Imperative Programming), **Prolog**(Logic Programming) and **Scheme**(Functional Programming).
 
 The bicolor towers of Hanoi problem is a variation of traditional towers of Hanoi problem. (It was offered to grade 3-6 students at 2' eme Championnat de Francedes Jeux Math ́ematiques et Logiquesheld in July 1988). Suppose there arethree pegs, A, B and C. Suppose there are two sets of disks α and β, where α={αi | 1 <= i <= n } and β = {βi | 1 <= i <= n} such that color of everydisk in α is blue and color of every disk in β is red.
-The goal of the problem is to make the towersof pegs A and B monochrome. The biggest disks at the bottom of thepegs Aand B are required to swap positions. 
+The goal of the problem is to make the towers of pegs A and B monochrome. The biggest disks at the bottom of the pegs A and B are required to swap positions. 
 
 The initial configuration is like:
 
@@ -18,7 +18,7 @@ The rules of the problem are the same of Hanoi:
 
 	1) Only one disk can be moved at any time.
 
-	2) At no time can a larger disk be placed on a smaller disk. Same size diskscan be placed over one another.
+	2) At no time can a larger disk be placed on a smaller disk. Same size disks can be placed over one another.
 
 
 
@@ -50,11 +50,22 @@ To "run" the code just:
 	1. Open an interpreter, like Dr.Racket
 	2. Compile the code
 	3. Type for example: ***(hanoi_bicolore -1 6 "A" "B" "C")***
-You will see the list of move printed in the output file
+You will see the list of move printed in the output file, with the format **X,Y** where **X** is the source peg and **Y** is the destination peg. So you example **A,C** means **move the disk from A to C**
 
 
 
 ## Extra
-I implmented a C program (extra.c) that takes in input from a file the list of movements and prints in the standart output the system configuration at every shifts (like the C code output). The input file must contain the move in this format: **A,C** that mean move from **A** to **B**. One movement for each line. Just copy in the input file the sequence of movements and then run the program, it will ask you the total number of disks, just type it correctly and it will print all the configurations
+I implemented a C program (extra.c) that takes in input from a file the list of movements and prints in the standard output the system configuration at every shifts (like the C code output). The input file must contain the move in this format: **A,C** that mean move from **A** to **B**. One movement for each line. Just copy in the input file the sequence of movements and then run the program, it will ask you the total number of disks, just type it correctly and it will print all the configurations.
+This code will help you to understand if you are working correctly with your own implementation if you do not have a graphical representation in the standard output, as happened to me while i was writing the Prolog and Scheme code...  
 
+
+
+## Algorithm
+The Algorithm is the same for the Prolog and for the Scheme implementation. It is based on 6 recursive function that call each other. The C implementation is a little bit different. To understand better write me an email.
+
+
+
+
+
+Cheers to all, i hope i have helped you, there is not much documentation online about Bicolor Towers Of Hanoi :)
 
