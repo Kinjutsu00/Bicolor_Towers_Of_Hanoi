@@ -3,19 +3,6 @@
 #include <string.h>
 
 
-/*	
-	typedef struct nodo{
-		int e;				//dimensione
-		int f;				//colore
-		struct nodo *next;
-	};
-	
-	nodo *p, *s, *z, *prima; int control=0;
-	
-	p= (nodo *) malloc(sizeof(nodo)); s=p;
-	p->e=0; p->f=0; p->next=NULL;
-*/
-
 int main(int argc, char *argv[]) {
 	
 	int k=0, risp=1, i;
